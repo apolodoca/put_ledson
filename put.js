@@ -14,7 +14,7 @@ async function postData(url = "https://apolodoca.github.io/put_ledson"){
 	if(response.data.sucess){
 
 
-document.getElementById("imageid").src="../template/save.png";
+document.getElementById("cat").src="response.data";
 }
 
 
